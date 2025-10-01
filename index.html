@@ -23,38 +23,16 @@
         
        
         <img src="BANNER ESPINOSSAURO.png" alt="Banner de Espinossauro e Makita" width="100%" height="1000px">
-         <audio id="musica-fundo" autoplay muted loop>
+         <audio controls id="musica-fundo" loop>
         <source src="Three Days Grace - Animal I Have Become (Lyrics) [n9h7hU6_VI4].mp3" type="audio/mpeg">
         
         </audio>
 
-    <div id="splash-screen">
-        <button id="start-button">Comece</button>
-    </div>
+
 
     
 
-    <script>
-        document.getElementById('start-button').addEventListener('click', function() {
-            const splashScreen = document.getElementById('splash-screen');
-            const mainContent = document.getElementById('main-content');
-            const musica = document.getElementById('musica-fundo');
 
-            // 1. Remove a tela de splash
-            splashScreen.classList.add('hide-splash');
-            
-            // 2. Torna o conteúdo principal visível
-            mainContent.classList.add('show-content');
-            
-            // 3. Ativa o som da música
-            musica.muted = false;
-
-            // 4. Remove a tela de splash do DOM após a transição
-            setTimeout(() => {
-                splashScreen.style.display = 'none';
-            }, 1000); // O tempo (1000ms) deve ser igual ao da transição no CSS
-        });
-    </script>
     </header>
     <main>
          <div id="main-content" >
@@ -85,4 +63,5 @@ Junte-se a nós nesta jornada para apreciar essas belezas do mundo moderno. Afin
         <p>DGodoi19, 2025</p>
     </footer>
 </body>
+
 </html>
