@@ -9,50 +9,9 @@
         #titulo-principal {
             font-size: 48px;
         }
-        #splash-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            transition: opacity 1s ease-in-out;
-        }
+     
 
-        #start-button {
-            padding: 20px 40px;
-            font-size: 28px;
-            font-weight: bold;
-            color: #fff;
-            background-color: #ff6804;
-            border: 2px solid #ff0202;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-
-        #start-button:hover {
-            background-color: #ff0000;
-            transform: scale(1.1);
-        }
-
-        #main-content {
-            display: none;
-            padding-top: 50px;
-        }
-
-        .show-content {
-            display: block !important;
-        }
-        
-        .hide-splash {
-            opacity: 0;
-            pointer-events: none;
-        }
+       
 
         .banner-img {
             max-width: 100%;
@@ -91,7 +50,7 @@ nav a {
 
 nav a:hover {
     background-color: #555;
-    border-radius: 5px;
+    
 }
 
 aside{
@@ -163,4 +122,5 @@ aside{
     margin: 20px auto;
     width: 90%;
 }
+
 
